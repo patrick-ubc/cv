@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Patrick Huang - a software engineer</title>
+  <title>Patrick Huang</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,36 +11,42 @@
 </head>
 
 <body>
-  <div class="top-container">
+
+  <ul class="nav">
+    <li><a href="#top">About Me</a></li>
+    <li><a href="https://swift-oboe-678.notion.site/Patrick-Huang-Resume-40a8de4a4fac406d96a194d1c8c58e35" target="_blank">Resume</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="https://swift-oboe-678.notion.site/Computer-Engineering-Course-Notes-b6b42dad9db945f5b3f7fabe53b1a6b6" target="_blank">Course Notes</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+
+
+  <div class="top-container" id="top">
     <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
+    <a href="https://swift-oboe-678.notion.site/Patrick-Huang-Resume-40a8de4a4fac406d96a194d1c8c58e35" target="_blank">
+      <img class="profile_img" src="images/patrick.jpg" alt="My profile image">
+    </a>
     <h1>I'm Patrick</h1>
-    <h2>a <span class="pro">pro</span>grammer</h2>
     <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
     <img src="images/mountain.png" alt="mountain-image">
   </div>
 
   <div class="middle-container">
-    <div class="profile">
-      <img class="profile_img" src="images/patrick.jpg" alt="My profile image">
-      <!-- <img class="profile_img" src="https://scontent.fyvr3-1.fna.fbcdn.net/v/t1.0-9/132265796_763096724601451_2607269632617926377_n.jpg?_nc_cat=109&ccb=2&_nc_sid=09cbfe&_nc_ohc=pz4QHrQsW9kAX9AFV5Q&_nc_ht=scontent.fyvr3-1.fna&oh=9ad8e4d73ed5169206ca8c6935ba779f&oe=603771DD" alt="My profile image"> -->
-      <!-- <img class="profile_img" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Patrick_Star.svg/1200px-Patrick_Star.svg.png" alt="My profile image"> -->
-      <h2>Hello</h2>
-      <p class="my_brief_description">Enthusiastic programmer eager to contribute to
-        team success through hard work, attention to detail and excellent organizational skills.
-        Clear understanding of App development, Web Development and Games Development. Motivated to
-        learn, grow and excel in software engineering.</p>
-    </div>
-
-    <hr>
     <div class="skills">
       <h2>My Projects - Software</h2>
 
-
-
       <div class="skill-row">
         <img class="skill_img_1" src="https://www.flaticon.com/premium-icon/icons/svg/668/668276.svg" alt="ios Development">
-        <h3><a id="ios" href="https://apps.apple.com/ca/app/myday-todo-habit/id1529811373" target="_blank">iOS App Development</a></h3>
-        <p>I developed an iOS App: MyDay - Todo&Plan.</p>
+        <h3>
+          <a id="ios" href="https://apps.apple.com/ca/app/myday-todo-habit/id1529811373#?platform=iphone" target="_blank">
+            MyDay - Todo&Plan
+          </a>
+          <span>
+            <a href="https://swift-oboe-678.notion.site/MyDay-Todo-Plan-1e237ef94a5c4a7fa22a198288e54d77" target="_blank"> 
+              | details
+            </a>
+          </span>
+        </h3>
         <ul>
           <li>Used Realm as backend to store data, and built data structure that can store data more efficiently.</li>
           <li>Implemented the layout of the app, and added animation and vibration to make it more user-friendly.</li>
@@ -60,9 +66,6 @@
         </ul>
       </div>
 
-
-    
-
       <div class="skill-row">
         <img class="skill_img_1" src="https://www.flaticon.com/premium-icon/icons/svg/527/527564.svg" alt="Android App Development">
         <h3><a id="android" href="https://github.com/nepuubu/cpen321-wedo" target="_blank">Android App Development</a></h3>
@@ -75,8 +78,9 @@
         </ul>
       </div>
 
+
       <div class="skill-row">
-        <img class="skill_img_2" src="https://www.flaticon.com/svg/static/icons/svg/2868/2868182.svg" alt="Web Development">
+        <img class="skill_img_2" src="https://unity3d.com/profiles/unity3d/themes/unity/images/pages/branding_trademarks/unity-tab-square-black.png" alt="Web Development">
         <h3><a id="chat_app" href="https://www.fakebook.cam/" target="_blank">Chat App</a></h3>
         <p>Made a Chat App</p>
         <ul>
@@ -84,20 +88,19 @@
           <li>Deployed the Chat Application to heroku.</li>
         </ul>
       </div>
-    </div>
 
-    <div class="skill-row">
-      <img class="skill_img_1" src="" alt="Distributed Hash Table">
-      <h3><a id="distributed" href="https://www.fakebook.cam/" target="_blank">Distributed System</a></h3>
-      <p>Distributed Hash Table</p>
-      <ul>
-        <li>Implemented distributed hash table that can support more than 20 nodes.</li>
-        <li> Used Gossip Protocol to detect failed nodes and joint nodes.</li>
-        <li>Built backend server to store user information.</li>
-        <li>Used Chain Replication to reduce data loss due to node failure by 67%. </li>
-      </ul>
+      <div class="skill-row">
+        <img class="skill_img_1" src="images/robot.png" alt="Distributed Hash Table">
+        <h3><a id="distributed" href="https://www.fakebook.cam/" target="_blank">Distributed System</a></h3>
+        <p>Distributed Hash Table</p>
+        <ul>
+          <li>Implemented distributed hash table that can support more than 20 nodes.</li>
+          <li> Used Gossip Protocol to detect failed nodes and joint nodes.</li>
+          <li>Built backend server to store user information.</li>
+          <li>Used Chain Replication to reduce data loss due to node failure by 67%. </li>
+        </ul>
+      </div>
     </div>
-
 
 
     <hr>
